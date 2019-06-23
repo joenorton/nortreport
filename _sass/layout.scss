@@ -136,6 +136,21 @@ html, body {
   	margin: 0 auto;
   	display: block;
   }
+  .brand-title  {
+    font-family: 'Signika', sans-serif; //Emerald logo font
+    font-weight: 900;
+    font-size: 2.6667em; /* 48px/18px */
+    line-height: 1em; /* 48px/48px */
+    padding: 0.25em 0; /* 12px/48px * 2 (Use padding instead of margin to maintain proximity with paragraph) */
+  }
+  &:after {
+    display: block;
+    content: '';
+    width: 5rem;
+    height: 1px;
+    margin: 23px auto;
+    background-color: lighten($text-color, 70%);
+  }
   h1 {
   	font-family: 'Signika', sans-serif; //Emerald logo font
     font-weight: 600;
