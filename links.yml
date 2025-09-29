@@ -4,45 +4,121 @@ site:
   rss_count: 30
 
 links:
-  - id: adams-drops-out
-    title: "Adams drops out NY Race, down to Cuomo v Silwa v Mamdani"
-    url: "https://www.foxnews.com/politics/eric-adams-drops-out-nyc-mayoral-race-mamdani-gains-ground"
-    lane: "top"      # one of: top | geo | mkts
-    priority: 95
-    added_at: "2025-09-29"
+- id: mchurch-shooting
+  title: "Mass shooting at Michigan Mormon church kills 4, injures 8"
+  url: "https://www.theguardian.com/us-news/2025/sep/29/first-thing-at-least-four-dead-and-eight-injured-after-shooting-at-mormon-church-in-michigan"
+  lane: top
+  priority: 90
+  added_at: "2025-09-29"
 
-  - id: ukr2
-    title: "Trump: 'Ukraine can win back it's original borders'"
-    url: "https://www.foxnews.com/video/6380222750112"
-    lane: "geo"
-    priority: 80
-    added_at: "2025-09-28"
+- id: fedworker-exodus
+  title: "100,000+ federal workers to resign under Trump cuts plan"
+  url: "https://www.theguardian.com/us-news/2025/sep/29/president-trump-administration-news-updates-today"
+  lane: top
+  priority: 85
+  added_at: "2025-09-29"
 
-  - id: gaza-plan
-    title: "Gaza Stage is Set - If Hamas rejects peace plan, they are GONE"
-    url: "https://www.nbcnews.com/politics/politics-news/live-blog/trump-netanyahu-gaza-government-shutdown-portland-guard-live-updates-rcna234154t"
-    lane: "geo"
-    priority: 100
-    added_at: "2025-09-29"
+- id: gdp-data-suspend
+  title: "Labor Dept will suspend major economic data if government shuts down"
+  url: "https://www.reuters.com/world/labor-department-suspend-us-economic-data-releases-if-government-shuts-down-2025-09-29/"
+  lane: mkts
+  priority: 80
+  added_at: "2025-09-29"
 
+- id: markets-rise
+  title: "Markets tick higher amid mixed trade, eyes on jobs report"
+  url: "https://apnews.com/article/65e527906128a5df94833fd667a375a7"
+  lane: mkts
+  priority: 70
+  added_at: "2025-09-29"
 
-  - id: btc-gov-shutdown
-    title: "Threat of Gov Shutdown Not Slowing BTC"
-    url: "https://www.investors.com/news/bitcoin-price-cryptocurrency-rebound-u-s-government-shutdown-october-spot-crypto-etfs-sec/"
-    lane: "mkts"
-    priority: 70
-    added_at: "2025-09-29"
+- id: gaza-peace-plan
+  title: "Trump unveils 20-point plan to end Gaza war, Netanyahu backs it"
+  url: "https://abcnews.go.com/Politics/live-updates/trump-admin-live-updates/?id=126029955"
+  lane: geo
+  priority: 88
+  added_at: "2025-09-29"
 
-  - id: anth-claude-4-5
-    title: "Anthropic introduces Claude 4.5 - better agents than GPT-5?"
-    url: "https://www.anthropic.com/news/claude-sonnet-4-5"
-    lane: "mkts"
-    priority: 70
-    added_at: "2025-09-29"
+- id: unga-debate
+  title: "UN General Assembly wraps 80th session amid global tension"
+  url: "https://en.wikipedia.org/wiki/General_debate_of_the_eightieth_session_of_the_United_Nations_General_Assembly"
+  lane: geo
+  priority: 65
+  added_at: "2025-09-29"
 
-  - id: deepseek-v3-2
-    title: "DeepSeek launches V3.2-Exp - 10x cheaper inference and half the API cost?? New SOTA Open Source LLM?"
-    url: "https://x.com/deepseek_ai/status/1972604768309871061"
-    lane: "mkts"
-    priority: 70
-    added_at: "2025-09-29"
+- id: moldova-election
+  title: "Moldova votes pro-EU, rebuffs Russian influence"
+  url: "https://www.theguardian.com/world/live/2025/sep/29/moldova-voters-pro-eu-government-russia-drones-europe-live"
+  lane: geo
+  priority: 75
+  added_at: "2025-09-29"
+
+- id: hybrid-warfare-threat
+  title: "Denmark warns hybrid attacks, drones ‘new normal’ vs. Russia"
+  url: "https://www.theguardian.com/world/live/2025/sep/29/moldova-voters-pro-eu-government-russia-drones-europe-live"
+  lane: geo
+  priority: 72
+  added_at: "2025-09-29"
+
+- id: trump-schumer-meeting
+  title: "Trump meets congressional leaders as shutdown looms"
+  url: "https://www.washingtonpost.com/politics/2025/09/29/donald-trumps-high-stakes-monday/"
+  lane: top
+  priority: 82
+  added_at: "2025-09-29"
+
+- id: pharma-tariff
+  title: "Trump rolls out 100% tariff on pharmaceutical imports"
+  url: "https://www.theaustralian.com.au/nation/politics-latest-penny-wong-warns-un-of-aisparked-nuclear-devastation/live-coverage/ef1d8c82001fefcdb28ee3282ce80159"
+  lane: top
+  priority: 60
+  added_at: "2025-09-29"
+
+- id: jobs-data-week
+  title: "All eyes on jobs report, Fed commentary this week"
+  url: "https://www.businessinsider.com/stock-market-this-week-jobs-report-fed-minutes-speakers-rates-2025-9"
+  lane: mkts
+  priority: 68
+  added_at: "2025-09-29"
+
+- id: suspect-trump-sign
+  title: "Shooter in Michigan had Trump sign outside home, records show"
+  url: "https://www.theguardian.com/us-news/2025/sep/29/mormon-church-shooting-trump-sign"
+  lane: top
+  priority: 55
+  added_at: "2025-09-29"
+
+- id: nbc-venezuela-drone
+  title: "U.S. considering drone strikes inside Venezuela, says NBC"
+  url: "https://www.democracynow.org/2025/9/29/headlines"
+  lane: geo
+  priority: 50
+  added_at: "2025-09-29"
+
+- id: global-economy-warn
+  title: "World Bank warns: worst decade for global economy since 1960s"
+  url: "https://www.thetimes.co.uk/article/world-bank-global-economy-heading-for-worst-decade-since-1960s-fkqprcg8r"
+  lane: mkts
+  priority: 40
+  added_at: "2025-09-29"
+
+- id: southport-shooting
+  title: "Mass shooting in North Carolina: 3 dead, 5 injured"
+  url: "https://en.wikipedia.org/wiki/2025_Southport_shooting"
+  lane: top
+  priority: 50
+  added_at: "2025-09-29"
+
+- id: anth-claude-4-5
+  title: "Anthropic introduces Claude 4.5 - better agents than GPT-5?"
+  url: "https://www.anthropic.com/news/claude-sonnet-4-5"
+  lane: "mkts"
+  priority: 70
+  added_at: "2025-09-29"
+
+- id: deepseek-v3-2
+  title: "DeepSeek launches V3.2-Exp - 10x cheaper inference and half the API cost?? New SOTA Open Source LLM?"
+  url: "https://x.com/deepseek_ai/status/1972604768309871061"
+  lane: "mkts"
+  priority: 70
+  added_at: "2025-09-29"
