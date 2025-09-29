@@ -1,0 +1,48 @@
+site:
+  title: "NORT REPORT"
+  site_url: "https://nortreport.com"   # used in rss + sitemap
+  updated_at: "2025-01-27T10:17:00-07:00"
+  rss_count: 30
+
+links:
+  - id: fed1
+    title: "fed hints at longer-for-longer"
+    url: "https://www.reuters.com/business/finance/fed-officials-signal-higher-rates-longer-2025-01-27/"
+    lane: "top"      # one of: top | geo | mkts
+    priority: 95
+    added_at: "2025-01-27T16:05:00Z"
+
+  - id: ukr2
+    title: "ukraine strikes logistics hub"
+    url: "https://apnews.com/article/ukraine-russia-war-military-strikes-2025-01-27"
+    lane: "geo"
+    priority: 80
+    added_at: "2025-01-27T15:22:00Z"
+
+  - id: mkts3
+    title: "nasdaq futures slip; yields tick up"
+    url: "https://www.wsj.com/articles/global-stock-markets-dow-sp-500-nasdaq-2025-01-27"
+    lane: "mkts"
+    priority: 85
+    added_at: "2025-01-27T12:41:00Z"
+
+  - id: top4
+    title: "BREAKING: major policy shift announced"
+    url: "https://example.com/policy-shift"
+    lane: "top"
+    priority: 100
+    added_at: "2025-01-27T18:30:00Z"
+
+  - id: geo5
+    title: "middle east tensions escalate"
+    url: "https://example.com/middle-east"
+    lane: "geo"
+    priority: 75
+    added_at: "2025-01-27T14:15:00Z"
+
+  - id: mkts6
+    title: "tech earnings beat expectations"
+    url: "https://example.com/tech-earnings"
+    lane: "mkts"
+    priority: 70
+    added_at: "2025-01-27T11:20:00Z"
