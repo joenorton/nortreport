@@ -28,6 +28,7 @@ ul{list-style:none;margin:0;padding:0} li{margin:12px 0}
 a{color:var(--link);text-decoration:none;font-size:16px} a:hover{text-decoration:underline}
 .toplane li:nth-child(-n+3) a{font-weight:800;text-transform:uppercase;font-size:18px}
 .hr{border-top:1px solid #222;margin:20px 0}
+.story-separator{border:none;border-top:1px solid #333;margin:16px 0;opacity:0.6}
 .footer{margin-top:20px;text-align:center;color:var(--muted);font-size:14px}
 """
 
@@ -119,10 +120,13 @@ def normalize_links(links: List[Dict[str,Any]]) -> List[Dict[str,Any]]:
 def render_lane(key:str,label:str,items:List[Dict[str,Any]])->str:
     cls = "lane" + (" toplane" if key=="top" else "")
     s = [f'<div class="{cls}"><h2>{label}</h2><ul>']
-    for it in items:
+    for i, it in enumerate(items):
         s.append(
             f'<li><a href="{safe(it["url"])}" rel="noopener" target="_blank">{safe(it["title"])}</a></li>'
         )
+        # Add <hr> between items, but not after the last one
+        if i < len(items) - 1:
+            s.append('<hr class="story-separator">')
     s.append("</ul></div>")
     return "\n".join(s)
 
