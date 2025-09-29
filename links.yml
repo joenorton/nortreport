@@ -4,44 +4,31 @@ site:
   rss_count: 30
 
 links:
-  - id: fed1
-    title: "fed hints at longer-for-longer"
-    url: "https://www.reuters.com/business/finance/fed-officials-signal-higher-rates-longer-2025-01-27/"
+  - id: adams-drops-out
+    title: "Adams drops out NY Race, down to Cuomo v Silwa v Mamdani"
+    url: "https://www.foxnews.com/politics/eric-adams-drops-out-nyc-mayoral-race-mamdani-gains-ground"
     lane: "top"      # one of: top | geo | mkts
     priority: 95
-    added_at: "2025-01-27T16:05:00Z"
+    added_at: "2025-09-29"
 
   - id: ukr2
-    title: "ukraine strikes logistics hub"
-    url: "https://apnews.com/article/ukraine-russia-war-military-strikes-2025-01-27"
+    title: "Trump: 'Ukraine can win back it's original borders'"
+    url: "https://www.foxnews.com/video/6380222750112"
     lane: "geo"
     priority: 80
-    added_at: "2025-01-27T15:22:00Z"
+    added_at: "2025-09-28"
 
-  - id: mkts3
-    title: "nasdaq futures slip; yields tick up"
-    url: "https://www.wsj.com/articles/global-stock-markets-dow-sp-500-nasdaq-2025-01-27"
-    lane: "mkts"
-    priority: 85
-    added_at: "2025-01-27T12:41:00Z"
-
-  - id: top4
-    title: "BREAKING: major policy shift announced"
-    url: "https://example.com/policy-shift"
-    lane: "top"
-    priority: 100
-    added_at: "2025-01-27T18:30:00Z"
-
-  - id: geo5
-    title: "middle east tensions escalate"
-    url: "https://example.com/middle-east"
+  - id: gaza-plan
+    title: "Gaza Stage is Set - If Hamas rejects peace plan, they are GONE"
+    url: "https://www.nbcnews.com/politics/politics-news/live-blog/trump-netanyahu-gaza-government-shutdown-portland-guard-live-updates-rcna234154t"
     lane: "geo"
-    priority: 75
-    added_at: "2025-01-27T14:15:00Z"
+    priority: 100
+    added_at: "2025-09-29"
 
-  - id: mkts6
-    title: "tech earnings beat expectations"
-    url: "https://example.com/tech-earnings"
+
+  - id: btc-gov-shutdown
+    title: "Threat of Gov Shutdown Not Slowing BTC"
+    url: "https://www.investors.com/news/bitcoin-price-cryptocurrency-rebound-u-s-government-shutdown-october-spot-crypto-etfs-sec/"
     lane: "mkts"
     priority: 70
-    added_at: "2025-01-27T11:20:00Z"
+    added_at: "2025-09-29"
