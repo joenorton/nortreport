@@ -17,11 +17,11 @@ LANES = [("top","TOP"), ("geo","GEOPOLITICS"), ("mkts","MARKETS + TECH")]
 CSS = """
 :root{--bg:#0b0b0b;--fg:#e7e7e7;--muted:#9a9a9a;--link:#f1f1f1;}
 *{box-sizing:border-box} html{font-family:system-ui,-apple-system,Segoe UI,Roboto,Inter,sans-serif}
-body{margin:0;background:var(--bg);color:var(--fg);font-size:16px;line-height:1.5}
+body{margin:0;background:var(--bg);color:var(--fg);font-size:24px;line-height:1.5}
 .wrap{max-width:1200px;margin:0 auto;padding:24px}
 .head{text-align:center;margin:8px 0 20px} .h1{letter-spacing:2px;font-weight:800;font-size:36px}
-.h1 a{color:var(--fg);text-decoration:none} .sub{font-size:14px;color:var(--muted)}
-.cols{display:grid;grid-template-columns:1.2fr 1fr 1fr;gap:24px}
+.h1 a{color:var(--fg);text-decoration:none;font-size:36px}
+.cols{display:grid;grid-template-columns:1.2fr 1fr 1fr;gap:28px}
 @media(max-width:980px){.cols{grid-template-columns:1fr}}
 .lane h2{font-size:14px;font-weight:700;color:var(--muted);margin:8px 0 12px;text-transform:uppercase;letter-spacing:.8px}
 ul{list-style:none;margin:0;padding:0} li{margin:12px 0}
@@ -39,7 +39,6 @@ HTML = """<!doctype html>
 <body><div class="wrap">
 <header class="head">
   <div class="h1"><a href="/">{title}</a></div>
-  <div class="sub">updated {updated_human}</div>
 </header>
 <div class="cols">{cols}</div>
 <div class="footer hr"></div>
@@ -134,9 +133,7 @@ def build_front(site:Dict[str,Any], links:List[Dict[str,Any]]):
         if it["lane"] in lanes: lanes[it["lane"]].append(it)
     for k in lanes: lanes[k].sort(key=lambda x:(-x["priority"], x["title"]))
     cols = "\n".join(render_lane(k, lbl, lanes[k]) for k,lbl in LANES)
-    updated = iso_parse(site.get("updated_at") or now_utc().isoformat())
     html = HTML.format(title=safe(site.get("title","NORT REPORT")),
-                       updated_human=human(updated),
                        year=dt.datetime.now().year,
                        cols=cols, css=CSS)
     write_if_changed(PUBLIC/"index.html", html.encode("utf-8"))

@@ -1,7 +1,6 @@
 site:
   title: "NORT REPORT"
   site_url: "https://nortreport.com"   # used in rss + sitemap
-  updated_at: "2025-01-27T10:17:00-07:00"
   rss_count: 30
 
 links:

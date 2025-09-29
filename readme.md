@@ -16,9 +16,9 @@ Open [http://localhost:8080](http://localhost:8080)
 
 * Add/edit links in `links.yml`. Fields:
 
-  * `title`, `url`, `source`, `lane` (`top|geo|mkts`), `priority` (int), `added_at` (ISO8601)
+  * `title`, `url`, `lane` (`top|geo|mkts`), `priority` (int), `added_at` (ISO8601)
   * `id` optional; if omitted, a stable hash is used.
-* Update `site.title`, `site.site_url`, `site.updated_at`.
+* Update `site.title`, `site.site_url`.
 
 ## Archives & RSS
 
