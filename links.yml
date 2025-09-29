@@ -32,3 +32,17 @@ links:
     lane: "mkts"
     priority: 70
     added_at: "2025-09-29"
+
+  - id: anth-claude-4-5
+    title: "Anthropic introduces Claude 4.5 - better agents than GPT-5?"
+    url: "https://www.anthropic.com/news/claude-sonnet-4-5"
+    lane: "mkts"
+    priority: 70
+    added_at: "2025-09-29"
+
+  - id: deepseek-v3-2
+    title: "DeepSeek launches V3.2-Exp - 10x cheaper inference and half the API cost?? New SOTA Open Source LLM?"
+    url: "https://x.com/deepseek_ai/status/1972604768309871061"
+    lane: "mkts"
+    priority: 70
+    added_at: "2025-09-29"
