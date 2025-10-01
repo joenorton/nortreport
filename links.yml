@@ -5,106 +5,64 @@ site:
 
 links:
 - id: shutdown1
-  title: "U.S. Government Begins Shutdown as Congress Fails to Fund"
-  url: "https://www.reuters.com/world/us/us-government-begins-shut-down-most-operations-after-congress-fails-advance-2025-10-01/"
+  title: "Vote to End Government Shutdown Fails in Senate"
+  url: "https://apnews.com/article/54b2a584657a0b619bc8326708a05604"
   lane: "top"
   priority: 100
   added_at: "2025-10-01"
 
-- id: mkts1
-  title: "Stocks Mixed, Gold Soars to Record on Shutdown Uncertainty"
+- id: shutdown2
+  title: "U.S. Government Begins Shutdown as Congress Fails to Fund"
+  url: "https://www.reuters.com/world/us/us-government-begins-shut-down-most-operations-after-congress-fails-advance-2025-10-01/"
+  lane: "top"
+  priority: 95
+  added_at: "2025-10-01"
+
+- id: regulators
+  title: "US Financial Regulators Begin Shuttering Operations"
+  url: "https://www.reuters.com/sustainability/boards-policy-regulation/us-financial-regulators-start-shuttering-federal-funding-runs-out-2025-10-01/"
+  lane: "mkts"
+  priority: 90
+  added_at: "2025-10-01"
+
+- id: markets1
+  title: "Stocks Mixed, Gold Hits Record as US Government Shuts Down"
   url: "https://www.reuters.com/world/china/global-markets-wrapup-1-2025-10-01/"
   lane: "mkts"
   priority: 90
   added_at: "2025-10-01"
 
-- id: mkts2
-  title: "US Dollar Slides to One-Week Low Amid Shutdown Fears"
-  url: "https://www.reuters.com/world/middle-east/dollar-defensive-us-government-shutdown-looms-2025-10-01/"
+- id: cfpb
+  title: "Consumer Finance Watchdog to Continue Work During Shutdown"
+  url: "https://www.reuters.com/legal/government/us-consumer-watchdog-largely-shuttered-continue-work-during-shutdown-email-says-2025-09-30/"
+  lane: "top"
+  priority: 80
+  added_at: "2025-10-01"
+
+- id: gold1
+  title: "Gold Surges to Record on Weak Dollar, Safe-Haven Flight"
+  url: "https://www.reuters.com/world/gold-rallies-record-high-us-government-shutdown-uncertainty-2025-10-01/"
   lane: "mkts"
   priority: 85
   added_at: "2025-10-01"
 
-- id: top2
-  title: "Trump Calls Shutdown Opportunity to Cut ‘Unwanted’ Programs"
-  url: "https://www.theguardian.com/us-news/2025/oct/01/trump-administration-news-updates-today-latest"
-  lane: "top"
-  priority: 95
+- id: gold2
+  title: "Gold Punches Through $3,800 as Markets Rattle"
+  url: "https://www.ft.com/content/939a2a93-3dd0-46c3-a9c6-8dd27a5a1cb8"
+  lane: "mkts"
+  priority: 75
   added_at: "2025-10-01"
 
-- id: mkts3
-  title: "Shutdown Threatens IPO Revival, Freezes SEC Backlog"
-  url: "https://www.reuters.com/sustainability/boards-policy-regulation/us-government-shutdown-threatens-disrupt-ipo-market-momentum-2025-10-01/"
+- id: btc1
+  title: "Gold And Bitcoin Rally Amid Government Shutdown"
+  url: "https://www.forbes.com/sites/tylerroush/2025/10/01/gold-hits-record-and-bitcoin-rises-amid-government-shutdown-uncertainty/"
   lane: "mkts"
   priority: 80
   added_at: "2025-10-01"
 
-- id: geo1
-  title: "World Scrambles New Trade Deals in Response to Trump Tariffs"
-  url: "https://www.reuters.com/world/china/hit-by-trump-tariffs-rest-world-races-forge-new-trade-alliances-2025-10-01/"
-  lane: "geo"
-  priority: 88
-  added_at: "2025-10-01"
-
-- id: tech1
-  title: "If AI Is a Bubble, the Economy Could Pop With It"
-  url: "https://www.reuters.com/markets/europe/if-ai-is-bubble-economy-will-pop-with-it-2025-10-01/"
+- id: markets2
+  title: "Wall Street Indexes Close Higher Despite Shutdown Loom"
+  url: "https://www.reuters.com/business/wall-street-futures-fall-investor-jitters-over-looming-government-shutdown-2025-09-30/"
   lane: "mkts"
-  priority: 82
-  added_at: "2025-10-01"
-
-- id: top3
-  title: "Pete Hegseth Slams ‘Fat Generals’ in Pentagon Shakeup"
-  url: "https://www.reuters.com/podcasts/shutdown-starts-fat-generals-silicon-valley-pentagon-pfizer-2025-10-01/"
-  lane: "top"
-  priority: 75
-  added_at: "2025-10-01"
-
-- id: geo2
-  title: "Deployment of Federal Forces to U.S. Cities Expands (Portland, More)"
-  url: "https://en.wikipedia.org/wiki/2025_deployment_of_federal_forces_in_the_United_States"
-  lane: "geo"
-  priority: 78
-  added_at: "2025-10-01"
-
-- id: top4
-  title: "Trump-Pfizer Deal: Gov’t to Sell Drugs Directly, Slash Pharma Prices"
-  url: "https://www.aljazeera.com/where/united-states/"
-  lane: "top"
   priority: 70
-  added_at: "2025-10-01"
-
-- id: geo3
-  title: "U.S. Uses Naval Power in Caribbean to Target Venezuelan Cartels"
-  url: "https://en.wikipedia.org/wiki/2025_US_Caribbean_naval_deployment"
-  lane: "geo"
-  priority: 76
-  added_at: "2025-10-01"
-
-- id: mkts4
-  title: "Morning Bid: Congress Leaves DC, Markets in Darkness"
-  url: "https://www.reuters.com/business/finance/global-markets-view-usa-2025-10-01/"
-  lane: "mkts"
-  priority: 68
-  added_at: "2025-10-01"
-
-- id: top5
-  title: "FirstFT: Shutdown Erodes Confidence in Washington’s Discipline"
-  url: "https://www.ft.com/content/459de55c-ecc4-4e75-8c2f-db11feffe951"
-  lane: "top"
-  priority: 65
-  added_at: "2025-10-01"
-
-- id: mkts5
-  title: "Markets Brace as Data Delays Cloud Fed’s Next Moves"
-  url: "https://www.reuters.com/business/wall-street-futures-slip-government-shutdown-complicates-fed-rate-path-2025-10-01/"
-  lane: "mkts"
-  priority: 64
-  added_at: "2025-10-01"
-
-- id: top6
-  title: "Lighter Note: Markets, Politics, and the Fat Bear Festival"
-  url: "https://www.theguardian.com/us-news/live/2025/sep/30/us-government-shutdown-funding-trump-vance-portland-hegseth-latest-updates"
-  lane: "top"
-  priority: 40
   added_at: "2025-10-01"
