@@ -4,65 +4,114 @@ site:
   rss_count: 30
 
 links:
-- id: shutdown1
-  title: "Vote to End Government Shutdown Fails in Senate"
-  url: "https://apnews.com/article/54b2a584657a0b619bc8326708a05604"
-  lane: "top"
-  priority: 100
+- id: top1
+  title: "U.S. Government Enters Shutdown After Funding Deadlock"
+  url: "https://www.reuters.com/world/us/us-government-begins-shut-down-most-operations-after-congress-fails-advance-2025-10-01/"  
+  lane: "top"  
+  priority: 100  
   added_at: "2025-10-01"
 
-- id: shutdown2
-  title: "U.S. Government Begins Shutdown as Congress Fails to Fund"
-  url: "https://www.reuters.com/world/us/us-government-begins-shut-down-most-operations-after-congress-fails-advance-2025-10-01/"
-  lane: "top"
-  priority: 95
+- id: top2
+  title: "Stocks Mixed, Gold Soars amid Shutdown Uncertainty"
+  url: "https://www.reuters.com/world/china/global-markets-wrapup-1-2025-10-01/"  
+  lane: "mkts"  
+  priority: 90  
   added_at: "2025-10-01"
 
-- id: regulators
-  title: "US Financial Regulators Begin Shuttering Operations"
-  url: "https://www.reuters.com/sustainability/boards-policy-regulation/us-financial-regulators-start-shuttering-federal-funding-runs-out-2025-10-01/"
-  lane: "mkts"
-  priority: 90
+- id: geo1
+  title: "Trump Orders Military: Use U.S. Cities as Training Ground"
+  url: "https://www.kosu.org/u-s-news/2025-10-01/trump-says-u-s-military-should-be-used-to-fight-the-enemy-within"  
+  lane: "geo"  
+  priority: 85  
   added_at: "2025-10-01"
 
-- id: markets1
-  title: "Stocks Mixed, Gold Hits Record as US Government Shuts Down"
-  url: "https://www.reuters.com/world/china/global-markets-wrapup-1-2025-10-01/"
-  lane: "mkts"
-  priority: 90
+- id: geo2
+  title: "Trump Declares Homeland Security Top Military Priority"
+  url: "https://koreajoongangdaily.joins.com/news/2025-10-01/world/world/Trump-highlights-homeland-security-as-first-most-important-priority-for-US-military/2412286"  
+  lane: "geo"  
+  priority: 80  
   added_at: "2025-10-01"
 
-- id: cfpb
-  title: "Consumer Finance Watchdog to Continue Work During Shutdown"
-  url: "https://www.reuters.com/legal/government/us-consumer-watchdog-largely-shuttered-continue-work-during-shutdown-email-says-2025-09-30/"
-  lane: "top"
-  priority: 80
+- id: mkts2
+  title: "Wall Street Braces for Weak Data as Yields Fall"
+  url: "https://apnews.com/article/b4bddbf826a5eabee1113f62aeb5e25e"  
+  lane: "mkts"  
+  priority: 75  
   added_at: "2025-10-01"
 
-- id: gold1
-  title: "Gold Surges to Record on Weak Dollar, Safe-Haven Flight"
-  url: "https://www.reuters.com/world/gold-rallies-record-high-us-government-shutdown-uncertainty-2025-10-01/"
-  lane: "mkts"
-  priority: 85
+- id: top3
+  title: "Judiciary Stays Open Despite Shutdown"
+  url: "https://www.uscourts.gov/data-news/judiciary-news/2025/10/01/judiciary-still-operating-shutdown-starts"  
+  lane: "top"  
+  priority: 70  
   added_at: "2025-10-01"
 
-- id: gold2
-  title: "Gold Punches Through $3,800 as Markets Rattle"
-  url: "https://www.ft.com/content/939a2a93-3dd0-46c3-a9c6-8dd27a5a1cb8"
-  lane: "mkts"
-  priority: 75
+- id: top4
+  title: "Trump’s Tariff Shock: 100% on Drugs, 25% on Trucks, More"
+  url: "https://www.businessinsider.com/trump-tariffs-pharmaceuticals-trucks-furniture-2025-9"  
+  lane: "top"  
+  priority: 65  
   added_at: "2025-10-01"
 
-- id: btc1
-  title: "Gold And Bitcoin Rally Amid Government Shutdown"
-  url: "https://www.forbes.com/sites/tylerroush/2025/10/01/gold-hits-record-and-bitcoin-rises-amid-government-shutdown-uncertainty/"
-  lane: "mkts"
-  priority: 80
+- id: geo3
+  title: "Federal Spending Freeze Hits Projects in Democratic Cities"
+  url: "https://www.reuters.com/world/us/us-government-begins-shut-down-most-operations-after-congress-fails-advance-2025-10-01/"  
+  lane: "geo"  
+  priority: 60  
   added_at: "2025-10-01"
 
-- id: markets2
-  title: "Wall Street Indexes Close Higher Despite Shutdown Loom"
-  url: "https://www.reuters.com/business/wall-street-futures-fall-investor-jitters-over-looming-government-shutdown-2025-09-30/"
-  lane: "mkts"
-  priority: 70
+- id: mkts3
+  title: "Markets Wobble but Stocks Largely Resilient"
+  url: "https://www.washingtonpost.com/business/2025/10/01/stock-market-rally-q3/"  
+  lane: "mkts"  
+  priority: 55  
+  added_at: "2025-10-01"
+
+- id: geo4
+  title: "Shutdown Halts Science, Cleanup, Oversight Agencies"
+  url: "https://www.reuters.com/world/us/us-government-begins-shut-down-most-operations-after-congress-fails-advance-2025-10-01/"  
+  lane: "geo"  
+  priority: 50  
+  added_at: "2025-10-01"
+
+- id: top5
+  title: "Pandemic Era Cuts Reversed in Shutdown Fight"
+  url: "https://abcnews.go.com/Politics/us-government-shut-midnight/story?id=126067361"  
+  lane: "top"  
+  priority: 45  
+  added_at: "2025-10-01"
+
+- id: mkts4
+  title: "Gold Hits Record as Safe-Haven Rush Accelerates"
+  url: "https://www.reuters.com/world/china/global-markets-wrapup-1-2025-10-01/"  
+  lane: "mkts"  
+  priority: 40  
+  added_at: "2025-10-01"
+
+- id: geo5
+  title: "Dozens of Federal Agencies Face Furloughs, Service Cuts"
+  url: "https://federalnewsnetwork.com/government-shutdown/2025/09/heres-a-look-at-federal-agencies-contingency-plans-as-shutdown-looms/"  
+  lane: "geo"  
+  priority: 35  
+  added_at: "2025-10-01"
+
+- id: top6
+  title: "Congress’ Inability to Compromise Sparks Shutdown"
+  url: "https://www.washingtonpost.com/the-seven/2025/10/01/what-to-know-for-october-1/"  
+  lane: "top"  
+  priority: 30  
+  added_at: "2025-10-01"
+
+- id: mkts5
+  title: "Yields Dive on Weak ADP Jobs, Rate Cut Bets Rise"
+  url: "https://apnews.com/article/b4bddbf826a5eabee1113f62aeb5e25e"  
+  lane: "mkts"  
+  priority: 25  
+  added_at: "2025-10-01"
+
+- id: geo6
+  title: "Shutdown May Cripple WIC, EPA, CDC, Research"
+  url: "https://www.theguardian.com/us-news/2025/oct/01/first-thing-us-government-shuts-down-after-democrats-refuse-to-back-republican-funding-plan)"  
+  lane: "geo"  
+  priority: 20  
   added_at: "2025-10-01"
