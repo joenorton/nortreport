@@ -4,121 +4,107 @@ site:
   rss_count: 30
 
 links:
-- id: mchurch-shooting
-  title: "Mass shooting at Michigan Mormon church kills 4, injures 8"
-  url: "https://www.theguardian.com/us-news/2025/sep/29/first-thing-at-least-four-dead-and-eight-injured-after-shooting-at-mormon-church-in-michigan"
-  lane: top
+- id: shutdown1
+  title: "U.S. Government Begins Shutdown as Congress Fails to Fund"
+  url: "https://www.reuters.com/world/us/us-government-begins-shut-down-most-operations-after-congress-fails-advance-2025-10-01/"
+  lane: "top"
+  priority: 100
+  added_at: "2025-10-01"
+
+- id: mkts1
+  title: "Stocks Mixed, Gold Soars to Record on Shutdown Uncertainty"
+  url: "https://www.reuters.com/world/china/global-markets-wrapup-1-2025-10-01/"
+  lane: "mkts"
   priority: 90
-  added_at: "2025-09-29"
+  added_at: "2025-10-01"
 
-- id: fedworker-exodus
-  title: "100,000+ federal workers to resign under Trump cuts plan"
-  url: "https://www.theguardian.com/us-news/2025/sep/29/president-trump-administration-news-updates-today"
-  lane: top
+- id: mkts2
+  title: "US Dollar Slides to One-Week Low Amid Shutdown Fears"
+  url: "https://www.reuters.com/world/middle-east/dollar-defensive-us-government-shutdown-looms-2025-10-01/"
+  lane: "mkts"
   priority: 85
-  added_at: "2025-09-29"
+  added_at: "2025-10-01"
 
-- id: gdp-data-suspend
-  title: "Labor Dept will suspend major economic data if government shuts down"
-  url: "https://www.reuters.com/world/labor-department-suspend-us-economic-data-releases-if-government-shuts-down-2025-09-29/"
-  lane: mkts
+- id: top2
+  title: "Trump Calls Shutdown Opportunity to Cut ‘Unwanted’ Programs"
+  url: "https://www.theguardian.com/us-news/2025/oct/01/trump-administration-news-updates-today-latest"
+  lane: "top"
+  priority: 95
+  added_at: "2025-10-01"
+
+- id: mkts3
+  title: "Shutdown Threatens IPO Revival, Freezes SEC Backlog"
+  url: "https://www.reuters.com/sustainability/boards-policy-regulation/us-government-shutdown-threatens-disrupt-ipo-market-momentum-2025-10-01/"
+  lane: "mkts"
   priority: 80
-  added_at: "2025-09-29"
+  added_at: "2025-10-01"
 
-- id: markets-rise
-  title: "Markets tick higher amid mixed trade, eyes on jobs report"
-  url: "https://apnews.com/article/65e527906128a5df94833fd667a375a7"
-  lane: mkts
-  priority: 70
-  added_at: "2025-09-29"
-
-- id: gaza-peace-plan
-  title: "Trump unveils 20-point plan to end Gaza war, Netanyahu backs it"
-  url: "https://abcnews.go.com/Politics/live-updates/trump-admin-live-updates/?id=126029955"
-  lane: geo
+- id: geo1
+  title: "World Scrambles New Trade Deals in Response to Trump Tariffs"
+  url: "https://www.reuters.com/world/china/hit-by-trump-tariffs-rest-world-races-forge-new-trade-alliances-2025-10-01/"
+  lane: "geo"
   priority: 88
-  added_at: "2025-09-29"
+  added_at: "2025-10-01"
 
-- id: unga-debate
-  title: "UN General Assembly wraps 80th session amid global tension"
-  url: "https://en.wikipedia.org/wiki/General_debate_of_the_eightieth_session_of_the_United_Nations_General_Assembly"
-  lane: geo
-  priority: 65
-  added_at: "2025-09-29"
-
-- id: moldova-election
-  title: "Moldova votes pro-EU, rebuffs Russian influence"
-  url: "https://www.theguardian.com/world/live/2025/sep/29/moldova-voters-pro-eu-government-russia-drones-europe-live"
-  lane: geo
-  priority: 75
-  added_at: "2025-09-29"
-
-- id: hybrid-warfare-threat
-  title: "Denmark warns hybrid attacks, drones ‘new normal’ vs. Russia"
-  url: "https://www.theguardian.com/world/live/2025/sep/29/moldova-voters-pro-eu-government-russia-drones-europe-live"
-  lane: geo
-  priority: 72
-  added_at: "2025-09-29"
-
-- id: trump-schumer-meeting
-  title: "Trump meets congressional leaders as shutdown looms"
-  url: "https://www.washingtonpost.com/politics/2025/09/29/donald-trumps-high-stakes-monday/"
-  lane: top
+- id: tech1
+  title: "If AI Is a Bubble, the Economy Could Pop With It"
+  url: "https://www.reuters.com/markets/europe/if-ai-is-bubble-economy-will-pop-with-it-2025-10-01/"
+  lane: "mkts"
   priority: 82
-  added_at: "2025-09-29"
+  added_at: "2025-10-01"
 
-- id: pharma-tariff
-  title: "Trump rolls out 100% tariff on pharmaceutical imports"
-  url: "https://www.theaustralian.com.au/nation/politics-latest-penny-wong-warns-un-of-aisparked-nuclear-devastation/live-coverage/ef1d8c82001fefcdb28ee3282ce80159"
-  lane: top
-  priority: 60
-  added_at: "2025-09-29"
+- id: top3
+  title: "Pete Hegseth Slams ‘Fat Generals’ in Pentagon Shakeup"
+  url: "https://www.reuters.com/podcasts/shutdown-starts-fat-generals-silicon-valley-pentagon-pfizer-2025-10-01/"
+  lane: "top"
+  priority: 75
+  added_at: "2025-10-01"
 
-- id: jobs-data-week
-  title: "All eyes on jobs report, Fed commentary this week"
-  url: "https://www.businessinsider.com/stock-market-this-week-jobs-report-fed-minutes-speakers-rates-2025-9"
-  lane: mkts
+- id: geo2
+  title: "Deployment of Federal Forces to U.S. Cities Expands (Portland, More)"
+  url: "https://en.wikipedia.org/wiki/2025_deployment_of_federal_forces_in_the_United_States"
+  lane: "geo"
+  priority: 78
+  added_at: "2025-10-01"
+
+- id: top4
+  title: "Trump-Pfizer Deal: Gov’t to Sell Drugs Directly, Slash Pharma Prices"
+  url: "https://www.aljazeera.com/where/united-states/"
+  lane: "top"
+  priority: 70
+  added_at: "2025-10-01"
+
+- id: geo3
+  title: "U.S. Uses Naval Power in Caribbean to Target Venezuelan Cartels"
+  url: "https://en.wikipedia.org/wiki/2025_US_Caribbean_naval_deployment"
+  lane: "geo"
+  priority: 76
+  added_at: "2025-10-01"
+
+- id: mkts4
+  title: "Morning Bid: Congress Leaves DC, Markets in Darkness"
+  url: "https://www.reuters.com/business/finance/global-markets-view-usa-2025-10-01/"
+  lane: "mkts"
   priority: 68
-  added_at: "2025-09-29"
+  added_at: "2025-10-01"
 
-- id: suspect-trump-sign
-  title: "Shooter in Michigan had Trump sign outside home, records show"
-  url: "https://www.theguardian.com/us-news/2025/sep/29/mormon-church-shooting-trump-sign"
-  lane: top
-  priority: 55
-  added_at: "2025-09-29"
+- id: top5
+  title: "FirstFT: Shutdown Erodes Confidence in Washington’s Discipline"
+  url: "https://www.ft.com/content/459de55c-ecc4-4e75-8c2f-db11feffe951"
+  lane: "top"
+  priority: 65
+  added_at: "2025-10-01"
 
-- id: nbc-venezuela-drone
-  title: "U.S. considering drone strikes inside Venezuela, says NBC"
-  url: "https://www.democracynow.org/2025/9/29/headlines"
-  lane: geo
-  priority: 50
-  added_at: "2025-09-29"
+- id: mkts5
+  title: "Markets Brace as Data Delays Cloud Fed’s Next Moves"
+  url: "https://www.reuters.com/business/wall-street-futures-slip-government-shutdown-complicates-fed-rate-path-2025-10-01/"
+  lane: "mkts"
+  priority: 64
+  added_at: "2025-10-01"
 
-- id: global-economy-warn
-  title: "World Bank warns: worst decade for global economy since 1960s"
-  url: "https://www.thetimes.co.uk/article/world-bank-global-economy-heading-for-worst-decade-since-1960s-fkqprcg8r"
-  lane: mkts
+- id: top6
+  title: "Lighter Note: Markets, Politics, and the Fat Bear Festival"
+  url: "https://www.theguardian.com/us-news/live/2025/sep/30/us-government-shutdown-funding-trump-vance-portland-hegseth-latest-updates"
+  lane: "top"
   priority: 40
-  added_at: "2025-09-29"
-
-- id: southport-shooting
-  title: "Mass shooting in North Carolina: 3 dead, 5 injured"
-  url: "https://en.wikipedia.org/wiki/2025_Southport_shooting"
-  lane: top
-  priority: 50
-  added_at: "2025-09-29"
-
-- id: anth-claude-4-5
-  title: "Anthropic introduces Claude 4.5 - better agents than GPT-5?"
-  url: "https://www.anthropic.com/news/claude-sonnet-4-5"
-  lane: "mkts"
-  priority: 70
-  added_at: "2025-09-29"
-
-- id: deepseek-v3-2
-  title: "DeepSeek launches V3.2-Exp - 10x cheaper inference and half the API cost?? New SOTA Open Source LLM?"
-  url: "https://x.com/deepseek_ai/status/1972604768309871061"
-  lane: "mkts"
-  priority: 70
-  added_at: "2025-09-29"
+  added_at: "2025-10-01"
