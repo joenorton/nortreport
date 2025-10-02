@@ -4,79 +4,100 @@ site:
   rss_count: 30
 
 links:
-- id: shutdown_top
-  title: “Government Shutdown Begins as Funding Lapses”  
-  url: "https://www.wsj.com/politics/policy/government-shutdown-begins-as-funding-lapses-07f1027d"  
-  lane: top  
-  priority: 100  
-  added_at: "2025-10-01"
+- id: top1
+  title: "U.S. Government Shuts Down in Budget Standoff"
+  url: "https://www.theguardian.com/world/2025/oct/02/first-edition-government-shutdown"
+  lane: "top"
+  priority: 100
+  added_at: "2025-10-02"
 
-- id: senate_fail
-  title: “Senate Vote to End Shutdown Fails Over ACA Dispute”  
-  url: "https://apnews.com/article/54b2a584657a0b619bc8326708a05604"  
-  lane: top  
-  priority: 95  
-  added_at: "2025-10-01"
+- id: top2
+  title: "Shutdown Hampers Fed’s Access to Economic Data"
+  url: "https://www.reuters.com/markets/us/us-government-shutdown-gives-fed-last-thing-it-needs-even-less-visibility-2025-10-02/"
+  lane: "mkts"
+  priority: 95
+  added_at: "2025-10-02"
 
-- id: shutdown_wp
-  title: “Welcome to the Shutdown: What Stops, What Runs”  
-  url: "https://www.washingtonpost.com/politics/2025/10/01/welcome-shutdown/"  
-  lane: top  
-  priority: 90  
-  added_at: "2025-10-01"
+- id: top3
+  title: "Markets Hit Records Despite Shutdown; Rate Cut Hopes Soar"
+  url: "https://www.reuters.com/world/china/global-markets-wrapup-1-2025-10-02/"
+  lane: "mkts"
+  priority: 90
+  added_at: "2025-10-02"
 
-- id: geo_freeze_ny
-  title: “Trump Freezes $18B in N.Y. Projects Amid Shutdown”  
-  url: "https://www.reuters.com/world/us/us-government-begins-shut-down-most-operations-after-congress-fails-advance-2025-10-01/"  
-  lane: geo  
-  priority: 90  
-  added_at: "2025-10-01"
+- id: geo1
+  title: "White House Freezes $26 B to Democratic States Amid Shutdown"
+  url: "https://www.reuters.com/world/us/us-government-begins-shut-down-most-operations-after-congress-fails-advance-2025-10-01/"
+  lane: "geo"
+  priority: 85
+  added_at: "2025-10-02"
 
-- id: geo_qatar
-  title: “Trump Pledges U.S. Would Defend Qatar if Attacked”  
-  url: "https://www.reuters.com/business/aerospace-defense/trump-order-pledges-that-us-will-defend-qatar-event-attack-2025-10-01/"  
-  lane: geo  
-  priority: 85  
-  added_at: "2025-10-01"
+- id: geo2
+  title: "Trump Admin Eyes Deals Across 30+ Key Industries Before Midterms"
+  url: "https://www.reuters.com/business/healthcare-pharmaceuticals/trump-administration-targets-deals-dozens-industries-before-midterms-2025-10-02/"
+  lane: "geo"
+  priority: 80
+  added_at: "2025-10-02"
 
-- id: geo_guardian
-  title: “U.S. Government Shuts Down After Senate Deadlock”  
-  url: "https://www.theguardian.com/us-news/2025/oct/01/us-government-shuts-down"  
-  lane: geo  
-  priority: 80  
-  added_at: "2025-10-01"
+- id: mkts1
+  title: "Oil Faces Triple Risk: OPEC, China, Geopolitics"
+  url: "https://www.reuters.com/markets/commodities/opec-china-geopolitics-are-triple-whammy-uncertainty-crude-2025-10-02/"
+  lane: "mkts"
+  priority: 80
+  added_at: "2025-10-02"
 
-- id: mkts_mixed
-  title: “Stocks Mixed, Gold Hits Record as U.S. Shutdown Looms”  
-  url: "https://www.reuters.com/world/china/global-markets-wrapup-1-2025-10-01/"  
-  lane: mkts  
-  priority: 95  
-  added_at: "2025-10-01"
+- id: mkts2
+  title: "China’s Stock Rally Outruns Economic Outlook"
+  url: "https://asiatimes.com/2025/10/chinas-3-trillion-stock-rally-is-outrunning-its-economy/"
+  lane: "mkts"
+  priority: 75
+  added_at: "2025-10-02"
 
-- id: mkts_businessinsider
-  title: “Stock Futures Slide, Gold Hits New High on Shutdown”  
-  url: "https://markets.businessinsider.com/news/stocks/us-stock-futures-sp500-nasdaq-gold-government-shutdown-2025-10"  
-  lane: mkts  
-  priority: 90  
-  added_at: "2025-10-01"
+- id: top4
+  title: "Washington and Trump Clash Over Blame for Shutdown"
+  url: "https://abcnews.go.com/Politics/reactions-us-government-shutdown/story?id=126106926"
+  lane: "top"
+  priority: 70
+  added_at: "2025-10-02"
 
-- id: mkts_wsjlive
-  title: “Market Moves: Stocks Edge Up Despite Shutdown, Gold Soars”  
-  url: "https://www.wsj.com/livecoverage/stock-market-today-government-shutdown-10-01-2025"  
-  lane: mkts  
-  priority: 85  
-  added_at: "2025-10-01"
+- id: geo3
+  title: "U.S. Declares 'Non-International Armed Conflict' with Caribbean Cartels"
+  url: "https://en.wikipedia.org/wiki/2025_United_States_strikes_on_Venezuelan_boats"
+  lane: "geo"
+  priority: 70
+  added_at: "2025-10-02"
 
-- id: mkts_explainer
-  title: “How Shutdown Shuts Off Key Economic Data”  
-  url: "https://www.reuters.com/world/us/how-us-government-shutdown-affects-economic-data-publishing-2025-09-30/"  
-  lane: mkts  
-  priority: 80  
-  added_at: "2025-10-01"
+- id: mkts3
+  title: "Gold Nears Record Highs as Investors Flee to Safe Havens"
+  url: "https://fortune.com/2025/10/02/gold-price-safety-government-shutdown-volatility/"
+  lane: "mkts"
+  priority: 70
+  added_at: "2025-10-02"
 
-- id: top_harvard
-  title: “Trump Says Deal With Harvard Close; University to Pay $500M”  
-  url: "https://www.reuters.com/world/us/trump-says-us-government-reached-deal-with-harvard-university-2025-09-30/"  
-  lane: top  
-  priority: 75  
-  added_at: "2025-10-01"
+- id: top5
+  title: "Hundreds of Thousands of Federal Workers Furloughed"
+  url: "https://www.theguardian.com/world/2025/oct/02/first-edition-government-shutdown"
+  lane: "top"
+  priority: 65
+  added_at: "2025-10-02"
+
+- id: mkts4
+  title: "Tech Strength Drives U.S. Indices Higher Despite Turmoil"
+  url: "https://m.economictimes.com/news/international/us/us-stock-market-today-dow-jones-sp-500-and-nasdaq-rise-as-investors-eye-tech-healthcare-and-ai-amid-government-shutdown-concerns/articleshow/124276044.cms"
+  lane: "mkts"
+  priority: 60
+  added_at: "2025-10-02"
+
+- id: geo4
+  title: "New Visa Rule for H-2A Workers Takes Effect Amid Shutdown"
+  url: "https://www.newsweek.com/us-visa-rules-changing-october-h2a-10810801"
+  lane: "geo"
+  priority: 60
+  added_at: "2025-10-02"
+
+- id: top6
+  title: "Shutdown Deepens as Neither Side Shows Signs of Backing Down"
+  url: "https://www.washingtonpost.com/politics/2025/10/01/welcome-shutdown/"
+  lane: "top"
+  priority: 60
+  added_at: "2025-10-02"
